@@ -1,0 +1,7 @@
+// jsconfig.json
+// "basrUrl": "." とすることでルートディレクトリ基準になります
+{
+  "compilerOptions": {
+    "baseUrl": "."
+  }
+}
