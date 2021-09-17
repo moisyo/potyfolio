@@ -12,7 +12,7 @@ import PageTemplate from '../../../components/layouts/PageTemplate';
 import theme from '../../../components/utils/theme';
 import { fetchAllPosts, fetchPostsByPageNumber } from '../../../lib/api';
 import { Header } from 'src/components/Header';
-import { Footer } from 'src/components/Footer';
+
 export const getStaticPaths = async () => {
   const allPosts = await fetchAllPosts();
 
