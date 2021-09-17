@@ -1,0 +1,17 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+/* @layer base の中に書く */
+@layer base {
+  body {
+    @apply tracking-widest; /* 文字色と文字間隔 */
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+
+  a {
+    @apply hover:opacity-75 duration-300; /* aタグにカーソルを合わせたときの設定 */
+  }
+}

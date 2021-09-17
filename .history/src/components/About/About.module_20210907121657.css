@@ -1,0 +1,4 @@
+.bg {
+  background-image: url(public/19Podium_generated.png);
+  @apply bg-no-repeat bg-cover;
+}
