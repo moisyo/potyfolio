@@ -16,9 +16,9 @@ export const Cards = ({ id, title, publishedAt, thumbnail, body }) => {
   // console.log(blog);
 
   return (
-    <div className='relative container h-52 mx-auto shadow-lg rounded-lg hover:shadow-2xl transition duration-300'>
+    <div className='relative container h-40 mx-auto shadow-lg rounded-lg hover:shadow-2xl transition duration-300'>
       {/* <div className='p-10' style='background-image: url("");'></div> */}
-      <picture>
+      <picture className='relative'>
         <Image
           src={thumbnail}
           className='rounded-lg m-w-full h-full block'

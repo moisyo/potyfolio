@@ -16,15 +16,10 @@ export const Cards = ({ id, title, publishedAt, thumbnail, body }) => {
   // console.log(blog);
 
   return (
-    <div className='relative container h-52 mx-auto shadow-lg rounded-lg hover:shadow-2xl transition duration-300'>
+    <div className='container h-full mx-auto shadow-lg rounded-lg hover:shadow-2xl transition duration-300'>
       {/* <div className='p-10' style='background-image: url("");'></div> */}
       <picture>
-        <Image
-          src={thumbnail}
-          className='rounded-lg m-w-full h-full block'
-          layout='fill'
-          objectFit='cover'
-        />
+        {/* <Image src={thumbnail} className='rounded-lg m-w-full h-full block mx-auto' layout='fill' /> */}
       </picture>
     </div>
   );
