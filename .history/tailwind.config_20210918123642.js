@@ -4,6 +4,12 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    // textColor: {
+    //   primary: '#3490dc',
+    //   secondary: '#ffed4a',
+    //   danger: '#e3342f',
+    // },
+
     extend: {
       backgroundImage: (theme) => ({
         'works-1': "url('public/web-design2.png')",

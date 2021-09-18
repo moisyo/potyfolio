@@ -5,13 +5,14 @@
   display: flex;
   margin: 0 auto;
 }
-.cardH {
+.card-h {
   height: 19vw;
 }
 .panel {
   background-size: contain;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  height: 19rem;
   border-radius: 50px;
   color: #fff;
   cursor: pointer;

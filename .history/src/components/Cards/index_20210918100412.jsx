@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import classes from 'src/components/Works/Works.module.scss';
+import classes from '';
 
 const galleryName = [];
 
@@ -17,9 +17,7 @@ export const Cards = ({ id, title, publishedAt, thumbnail, body }) => {
   // console.log(blog);
 
   return (
-    <div
-      className={`relative container h-52 mx-auto shadow-lg rounded-lg hover:shadow-2xl transition duration-300`}
-    >
+    <div className='relative container h-52 mx-auto shadow-lg rounded-lg hover:shadow-2xl transition duration-300'>
       {/* <div className='p-10' style='background-image: url("");'></div> */}
       <picture>
         <Image

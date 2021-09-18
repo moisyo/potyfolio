@@ -10,7 +10,7 @@ export const About = () => {
       <div className='flex h-full'>
         <div className={`h-full flex-1 flex items-center justify-center`}>
           <div className=''>
-            <SectionTitle title='私について' lead='ABOUT' position='center' color='gray-700' />
+            <SectionTitle title='私について' lead='ABOUT' position='center' color='dark-green' />
             <p className='text-gray-700'>
               HP、LP制作を中心にデザインから実装、運用まで請け負います。
             </p>
