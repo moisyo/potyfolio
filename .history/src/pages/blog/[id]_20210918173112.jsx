@@ -1,8 +1,8 @@
+import { Footer } from 'src/components/Footer';
 import { client } from 'libs/client';
 import Moment from 'react-moment';
-import styles from 'src/pages/blog/[id].module.scss';
 import { BlogHeader } from 'src/components/BlogHeader';
-import { Footer } from 'src/components/Footer';
+import styles from 'src/pages/blog/[id].module.scss';
 
 export default function BlogId({ blog }) {
   // console.log(blog.category);
