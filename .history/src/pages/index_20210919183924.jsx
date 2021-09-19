@@ -48,7 +48,7 @@ const Home = ({ blog }) => {
         className='bg-bg-green min-h-screen lg:py-32 md:py-24 sm:py-16 lg:px-20 md:px-12 sm:px-4'
       >
         <SectionTitle title='制作実績' lead='WORKS' position='center' color='white' />
-        <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:max-w-5xl md:gap-x-15 xl-grid-cols-4 gap-y-10 gap-x-6 mx-auto mt-10'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:max-w-5xl md:gap-x-15 xl-grid-cols-4 gap-y-10 gap-x-6 mx-auto mt-10'>
           {blog.map((blog) => (
             <Link href={`/blog/${blog.id}`}>
               <a className='text-white block'>

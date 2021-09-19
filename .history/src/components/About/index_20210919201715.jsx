@@ -8,7 +8,7 @@ export const About = () => {
   return (
     <section id='about' className='h-screen'>
       <div className='flex h-full flex-col-reverse'>
-        <div className={`h-full flex-1 flex items-center justify-center sm:py-`}>
+        <div className={`h-full flex-1 flex items-center justify-center`}>
           <div className=''>
             <SectionTitle title='私について' lead='ABOUT' position='center' color='gray-700' />
             <p className='text-gray-700'>

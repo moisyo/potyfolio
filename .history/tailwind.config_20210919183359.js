@@ -32,12 +32,12 @@ module.exports = {
       },
     },
     screens: {
-      xl: { max: '2980px' },
+      xl: { max: '1279px' },
       // => @media (max-width: 1279px) { ... }
 
       lg: { max: '1023px' },
       // => @media (max-width: 1023px) { ... }
-      tab: { min: '768px', max: '1022' },
+
       md: { max: '767px' },
       // => @media (max-width: 767px) { ... }
 
