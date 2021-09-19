@@ -7,7 +7,7 @@ const ITEMS = ['about', 'skills', 'works', 'contact'];
 export const Header = () => {
   return (
     // returnの中が実際に表示される部分になり、複数行になる場合は一つのタグで囲まれている必要がある。
-    <header className='w-screen'>
+    <header className='lg:max-w-screen'>
       <div className='flex sm:flex-col h-full justify-between items-center lg:px-8 sm:px-2 lg:py-6 sm:py-3 shadow-md'>
         <h1>
           <Link href='/'>
