@@ -8,7 +8,7 @@ export const BlogHeader = () => {
   return (
     // returnの中が実際に表示される部分になり、複数行になる場合は一つのタグで囲まれている必要がある。
     <header className='w-screen'>
-      <div className='flex sm:flex-col h-full justify-between items-center lg:px-8 sm:px-2 lg:py-6 sm:py-3 shadow-md'>
+      <div className='flex justify-between items-center px-8 py-6 shadow-md'>
         <h1>
           <Link href='/'>
             <a>
@@ -17,7 +17,7 @@ export const BlogHeader = () => {
             </a>
           </Link>
         </h1>
-        <nav className='sm:text-sm sm:mt-3'>
+        <nav>
           <ul className='flex text-text-green'>
             {ITEMS.map((item) => {
               return (

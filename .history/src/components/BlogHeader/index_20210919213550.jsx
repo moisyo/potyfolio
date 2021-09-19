@@ -17,7 +17,7 @@ export const BlogHeader = () => {
             </a>
           </Link>
         </h1>
-        <nav className='sm:text-sm sm:mt-3'>
+        <nav>
           <ul className='flex text-text-green'>
             {ITEMS.map((item) => {
               return (
