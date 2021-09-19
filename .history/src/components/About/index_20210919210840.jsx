@@ -7,7 +7,7 @@ import { SectionTitle } from '../SectionTitle';
 export const About = () => {
   return (
     <section id='about' className='h-screen'>
-      <div className='flex h-full tab:flex-col-reverse'>
+      <div className='flex h-full sm:flex-col-reverse'>
         <div className={`h-full flex-1 flex items-center justify-center`}>
           <div className='sm:px-4'>
             <SectionTitle title='私について' lead='ABOUT' position='center' color='gray-700' />

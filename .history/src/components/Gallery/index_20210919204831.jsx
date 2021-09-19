@@ -15,7 +15,7 @@ export const Gallery = (props) => {
 
   return (
     <div>
-      <div className={`${classes.container} lg:flex sm:contents`}>
+      <div className={`${classes.container} md:flex sm:contents`}>
         {values.map((val) => (
           <div
             onClick={() => setIsActive(val.id)}
