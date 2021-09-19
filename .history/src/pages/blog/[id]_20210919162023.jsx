@@ -8,9 +8,8 @@ export default function BlogId({ blog }) {
   // console.log(blog.category);
   return (
     <div>
-      <PageHead />
       <BlogHeader />
-      <main className={`${styles.main}`}>
+      <main className={`${styles.main} min-h-screen`}>
         <div className='p-8'>
           <h2 className={`{styles.title} text-3xl font-bold mb-6 text-gray-700`}>{blog.title}</h2>
           <Moment format='YYYY-MM-DD' className='mb-6'>
