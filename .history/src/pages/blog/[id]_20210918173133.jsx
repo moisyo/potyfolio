@@ -11,7 +11,7 @@ export default function BlogId({ blog }) {
       <BlogHeader />
       <main className={`${styles.main} min-h-screen`}>
         <div className='p-8'>
-          <h2 className={`{styles.title} text-3xl font-bold mb-6 text-gray-700`}>{blog.title}</h2>
+          <h2 className={`{styles.title} text-3xl font-bold mb-6`}>{blog.title}</h2>
           <Moment format='YYYY-MM-DD' className='mb-6'>
             <p className={styles.publishedAt}>{blog.publishedAt}</p>
           </Moment>
@@ -20,7 +20,7 @@ export default function BlogId({ blog }) {
             dangerouslySetInnerHTML={{
               __html: `${blog.body}`,
             }}
-            className={`{styles.post} mt-6 text-gray-700`}
+            className={`{styles.post} mt-6`}
           />
         </div>
       </main>
