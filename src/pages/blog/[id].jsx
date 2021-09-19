@@ -12,7 +12,7 @@ export default function BlogId({ blog }) {
       <PageHead />
       <BlogHeader />
       <main className={`${styles.main} lg:min-h-screen`}>
-        <div className='p-8'>
+        <div className='lg:px-2 lg:py-20 tab:px-4 tab:py-16 sm:px-6 sm:py-10'>
           <h2 className={`{styles.title} text-3xl font-bold mb-6 text-gray-700`}>{blog.title}</h2>
           <Moment format='YYYY-MM-DD' className='mb-6'>
             <p className={styles.publishedAt}>{blog.publishedAt}</p>
